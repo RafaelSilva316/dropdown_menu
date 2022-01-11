@@ -1,0 +1,25 @@
+.dropdown {
+  background-color: aqua;
+  max-width: 200px;
+}
+
+.menu-btn {
+  font-size: 36px;
+  text-align: right;
+  background-color: burlywood;
+}
+
+.menu-btn p {
+  margin-right: 24px;
+}
+
+.menu-items {
+  height: 0;
+  overflow: hidden;
+}
+
+.showing {
+  height: 100px;
+  display: block;
+  transition: height 0.2s;
+}
